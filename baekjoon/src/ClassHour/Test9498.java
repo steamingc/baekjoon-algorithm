@@ -6,6 +6,7 @@ public class Test9498 {
 		Scanner sc = new Scanner(System.in);
 		int score = sc.nextInt();
 		int s = score/10;
+		
 		switch (s) {
 			case 9: case 10:
 				System.out.println("A");
@@ -22,6 +23,8 @@ public class Test9498 {
 			case 5: case 4: case 3: case 2: case 1: case 0:
 				System.out.println("F");
 				break;
+//			default:
+//				System.out.println("F");
 			}
 		
 		sc.close();
