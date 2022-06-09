@@ -126,6 +126,49 @@ package Alone;
 //public class 입력 {
 //public static void main(String[] args) {
 //	double a = 80.5;
-//	double b = 
+//	double b = 22.34;
+//	double ab = a + b;
+//	
+//	System.out.printf("%10.2f%10.2f%10.2f", a, b, ab);
+//	}
+//}
+
+
+//108
+//public class 입력 {
+//public static void main(String[] args) {
+//		double a = 100.12;
+//		int b = 50;
+//		double ab = a*b;
+//		System.out.println(a+" * "+b+" = "+(Math.round(ab)));
+//	}
+//}
+
+
+//109
+//import java.util.Scanner;
+//public class 입력 {
+//	public static void main(String[] args) {
+//		Scanner sc = new Scanner(System.in);
+//		int a = sc.nextInt();
+//		int b = sc.nextInt();
+//		int c = sc.nextInt();
+//		int sum = a + b + c;
+//		sc.close();
+//		System.out.println("sum = " + sum);
+//	}
+//}
+
+
+//110
+//import java.util.Scanner;
+//public class 입력 {
+//	public static void main(String[] args) {
+//		System.out.print("yard? ");
+//		Scanner sc = new Scanner(System.in);
+//		double a = sc.nextDouble();
+//		double yd = Math.round(a * 91.44 * 10) / 10.0;
+//		sc.close();
+//		System.out.println(a+"yard = " + yd + "cm");
 //	}
 //}
