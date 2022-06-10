@@ -125,3 +125,67 @@ package Alone;
 //		sc.close();
 //	}
 //}
+
+
+//112
+//import java.util.Scanner;
+//public class 연산자 {
+//	public static void main(String[] args) {
+//		Scanner sc = new Scanner(System.in);
+//		int a = sc.nextInt();
+//		int b = sc.nextInt();
+//		sc.close();
+//		
+//		System.out.println(a + " / " + b + " = " + (a/b) + "..." + (a%b));
+//		
+//	}
+//}
+
+
+//113
+//import java.util.Scanner;
+//public class 연산자 {
+//	public static void main(String[] args) {
+//		Scanner sc = new Scanner(System.in);
+//		int width = sc.nextInt()+5;
+//		int length = sc.nextInt()*2;
+//		sc.close();
+//		
+//		System.out.println("width = "+width);
+//		System.out.println("length = "+length);
+//		System.out.println("area = "+width*length);
+//	}
+//}
+
+
+//114
+//import java.util.Scanner;
+//public class 연산자 {
+//	public static void main(String[] args) {
+//		Scanner sc = new Scanner(System.in);
+//		int a = sc.nextInt();
+//		int b = sc.nextInt();
+//		sc.close();
+//		
+//		System.out.println(++a + " " + b--);
+//		System.out.println(a + " " + b);
+//	}
+//}
+
+
+//115
+//import java.util.Scanner;
+//public class 연산자 {
+//	public static void main(String[] args) {
+//		Scanner sc = new Scanner(System.in);
+//		int mh = sc.nextInt();
+//		int mw = sc.nextInt();
+//		int kh = sc.nextInt();
+//		int kw = sc.nextInt();
+//		
+//		boolean a = mh>kh && mw>kw;
+//		sc.close();
+//		
+//		System.out.println(a);
+//	}
+//}
