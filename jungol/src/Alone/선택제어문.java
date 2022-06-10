@@ -143,3 +143,101 @@ package Alone;
 //		System.out.println(min);
 //	}
 //}
+
+
+//120
+//import java.util.Scanner;
+//public class 선택제어문 {
+//	public static void main(String[] args) {
+//		Scanner sc = new Scanner(System.in);
+//		int a = sc.nextInt();
+//		int b = sc.nextInt();
+//		sc.close();
+//
+//		System.out.println(a>b? a-b : b-a);
+//	}
+//}
+
+
+//121
+//import java.util.Scanner;
+//public class 선택제어문 {
+//	public static void main(String[] args) {
+//		Scanner sc = new Scanner(System.in);
+//		int a = sc.nextInt();
+//		sc.close();
+//
+//		System.out.println(a>0? "plus" : a==0? "zero" : "minus");
+//	}
+//}
+
+
+//122
+//import java.util.Scanner;
+//public class 선택제어문 {
+//	public static void main(String[] args) {
+//		Scanner sc = new Scanner(System.in);
+//		int y = sc.nextInt();
+//		sc.close();
+//		
+//		//윤년
+//		if(y%400==0 || (y%4==0 && y%100!=0)) System.out.println("leap year");
+//		//평년
+//		else System.out.println("common year");
+//	}
+//}
+
+
+//123
+//import java.util.Scanner;
+//public class 선택제어문 {
+//	public static void main(String[] args) {
+//		System.out.print("Number? ");
+//		Scanner sc = new Scanner(System.in);
+//		int a = sc.nextInt();
+//		sc.close();
+//		
+//		switch (a) {
+//		case 1:
+//			System.out.println("dog");
+//			break;
+//		
+//		case 2:
+//			System.out.println("cat");
+//			break;
+//		
+//		case 3:
+//			System.out.println("chick");
+//			break;
+//			
+//		default:
+//			System.out.println("I don't know.");
+//			break;
+//		}
+//	}
+//}
+
+
+//124
+//import java.util.Scanner;
+//public class 선택제어문 {
+//	public static void main(String[] args) {
+//		Scanner sc = new Scanner(System.in);
+//		int a = sc.nextInt();
+//		sc.close();
+//		
+//		switch (a) {
+//		case 1: case 3: case 5: case 7: case 8: case 10: case 12:
+//			System.out.println(31);
+//			break;
+//		
+//		case 2:
+//			System.out.println(28);
+//			break;
+//		
+//		case 4: case 6: case 9: case 11:
+//			System.out.println(30);
+//			break;
+//		}
+//	}
+//}
