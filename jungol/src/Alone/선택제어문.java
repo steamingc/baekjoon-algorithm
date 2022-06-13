@@ -14,27 +14,49 @@ package Alone;
 //	}
 //}
 
-
-//531
-//import java.util.Scanner;
+//530 BufferedReader 풀이법
+//import java.io.BufferedReader;
+//import java.io.IOException;
+//import java.io.InputStreamReader;
 //public class 선택제어문 {
 //	public static void main(String[] args) {
-//		Scanner sc = new Scanner(System.in);
-//		double w = sc.nextDouble();
 //		
-//		if(w>88.45) {
-//			System.out.println("Heavyweight");
-//		} else if(w>72.57) {
-//			System.out.println("Cruiserweight");
-//		} else if(w>61.23) {
-//			System.out.println("Middleweight");
-//		} else if(w>50.80) {
-//			System.out.println("Lightweight");
-//		} else System.out.println("Flyweight");
-//		
-//		sc.close();
+//		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//		int n = 0;
+//		try {
+//			String inp = br.readLine();
+//			n = Integer.parseInt(inp);
+//		} catch (IOException e) {
+//			e.printStackTrace();
+//		} if(n>=20) {
+//			System.out.println("adult");
+//		} else {
+//			System.out.println((20-n)+"years later");
+//		}
 //	}
 //}
+
+
+//531
+import java.util.Scanner;
+public class 선택제어문 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		double w = sc.nextDouble();
+		
+		if(w>88.45) {
+			System.out.println("Heavyweight");
+		} else if(w>72.57) {
+			System.out.println("Cruiserweight");
+		} else if(w>61.23) {
+			System.out.println("Middleweight");
+		} else if(w>50.80) {
+			System.out.println("Lightweight");
+		} else System.out.println("Flyweight");
+		
+		sc.close();
+	}
+}
 
 
 //532

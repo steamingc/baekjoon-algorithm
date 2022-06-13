@@ -56,3 +56,83 @@ package Alone;
 
 
 //633
+//import java.util.Scanner;
+//public class 반복제어문1 {
+//	public static void main(String[] args) {
+//		Scanner sc = new Scanner(System.in);
+//		
+//		while(true) {
+//			System.out.println("1. Korea");
+//			System.out.println("2. USA");
+//			System.out.println("3. Japan");
+//			System.out.println("4. China");
+//			System.out.print("number? ");
+//			int num = sc.nextInt();
+//			
+//			switch (num) {
+//			case 1:
+//				System.out.println("");
+//				System.out.println("Seoul");
+//				System.out.println("");
+//				break;
+//				
+//			case 2:
+//				System.out.println("");
+//				System.out.println("Washington");
+//				System.out.println("");
+//				break;
+//
+//			case 3:
+//				System.out.println("");
+//				System.out.println("Tokyo");
+//				System.out.println("");
+//				break;
+//				
+//			case 4:
+//				System.out.println("");
+//				System.out.println("Beijing");
+//				System.out.println("");
+//				break;
+//				
+////			default:
+////				System.out.println("");
+////				System.out.println("none");
+////				break;
+//			}
+//			
+//			if(num<1||num>4) {
+//				System.out.println("");
+//				System.out.println("none");
+//				sc.close();
+//				break;
+//			}
+//		}
+//	}
+//}
+
+//125
+//import java.util.Scanner;
+//public class 반복제어문1 {
+//	public static void main(String[] args) {
+//		Scanner sc = new Scanner(System.in);
+//		int a = sc.nextInt();
+//		
+//		for(int i=1; i<=a; i++) {
+//			System.out.print(i + " ");
+//		}
+//		sc.close();
+//	}
+//}
+
+
+//126
+import java.util.Scanner;
+public class 반복제어문1 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		
+		
+		sc.close();
+	}
+}
