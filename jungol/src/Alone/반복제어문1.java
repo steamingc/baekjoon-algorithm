@@ -1,6 +1,5 @@
 package Alone;
 
-
 //536
 //public class 반복제어문1 {
 //	public static void main(String[] args) {
@@ -130,9 +129,23 @@ import java.util.Scanner;
 public class 반복제어문1 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		
-		
-		
+		int odd_num=0;
+		int even_num=0;
+	
+		while (true) {
+			int i = sc.nextInt();
+			
+			if (i % 2 == 0) {
+				even_num++;
+			} else if (i % 2 == 1 ){
+				odd_num++;
+			} else if (i == 0){
+				break;
+			}
+		}
 		sc.close();
+		
+		System.out.println("odd : "+odd_num);
+		System.out.println("even : "+even_num);
 	}
 }

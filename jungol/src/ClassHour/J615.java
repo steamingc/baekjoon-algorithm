@@ -49,6 +49,15 @@ public class J615 {
 		for(int i=0; i<ar.length; i++) {
 			ar[i].print();
 		}
+		
+		int sum_kor=0, sum_eng=0;
+		
+		for(int i=0; i<ar.length; i++) {
+			sum_kor += ar[i].getKor();
+			sum_eng += ar[i].getEng();
+		}
+		
+		System.out.println("avg "+(sum_kor/ar.length)+" "+(sum_eng/ar.length));
 	}
 }
 
@@ -56,6 +65,15 @@ class Person {
 	public String name;
 	public int kor;
 	public int eng;
+	
+	public int getKor() {
+		return kor;
+	}
+
+	public int getEng() {
+		return eng;
+	}
+
 	
 	public Person (String name, int kor, int eng) {
 		this.name = name;
