@@ -109,6 +109,61 @@ package Alone;
 //	}
 //}
 
+//선생님 풀이
+//import java.util.Scanner;
+//public class 반복제어문1 {
+//	public static void main(String[] args) {
+//		Scanner sc = new Scanner(System.in);
+//		
+//		int inp = 0;
+//		
+//		do {
+//			System.out.println("1. Korea");
+//			System.out.println("2. USA");
+//			System.out.println("3. Japan");
+//			System.out.println("4. China");
+//			System.out.print("number? ");
+//			inp = sc.nextInt();
+//			
+//			switch (inp) {
+//			case 1:
+//				System.out.println();
+//				System.out.println("Seoul");
+//				System.out.println();
+//				break;
+//				
+//			case 2:
+//				System.out.println();
+//				System.out.println("Washington");
+//				System.out.println();
+//				break;
+//				
+//			case 3:
+//				System.out.println();
+//				System.out.println("Tokyo");
+//				System.out.println();
+//				break;
+//				
+//			case 4:
+//				System.out.println();
+//				System.out.println("Beijing");
+//				System.out.println();
+//				break;
+//				
+//			default: 
+//				System.out.println();
+//				System.out.println("none");
+//				System.out.println();
+//			}
+//			
+//			
+//		} while(1<=inp && inp <= 4);
+//		
+//		sc.close();
+//	}
+//}
+
+
 //125
 //import java.util.Scanner;
 //public class 반복제어문1 {
@@ -125,27 +180,27 @@ package Alone;
 
 
 //126
-import java.util.Scanner;
-public class 반복제어문1 {
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int odd_num=0;
-		int even_num=0;
-	
-		while (true) {
-			int i = sc.nextInt();
-			
-			if (i % 2 == 0) {
-				even_num++;
-			} else if (i % 2 == 1 ){
-				odd_num++;
-			} else if (i == 0){
-				break;
-			}
-		}
-		sc.close();
-		
-		System.out.println("odd : "+odd_num);
-		System.out.println("even : "+even_num);
-	}
-}
+//import java.util.Scanner;
+//public class 반복제어문1 {
+//	public static void main(String[] args) {
+//		Scanner sc = new Scanner(System.in);
+//		int odd_num=0;
+//		int even_num=0;
+//	
+//		while (true) {
+//			int i = sc.nextInt();
+//			
+//			if (i % 2 == 0) {
+//				even_num++;
+//			} else if (i % 2 == 1 ){
+//				odd_num++;
+//			} else if (i == 0){
+//				break;
+//			}
+//		}
+//		sc.close();
+//		
+//		System.out.println("odd : "+odd_num);
+//		System.out.println("even : "+even_num);
+//	}
+//}

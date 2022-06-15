@@ -102,11 +102,41 @@ package Alone;
 //		boolean a = (sc.nextInt()!=0);
 //		boolean b = (sc.nextInt()!=0);
 //		
-//		System.out.println((a&b)+" "+(a&b));
+//		System.out.println((a && b)+" "+(a || b));
 //		
 //		sc.close();
 //	}
 //}
+
+import java.util.Scanner;
+public class ¿¬»êÀÚ {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int num1 = sc.nextInt();
+		int num2 = sc.nextInt();
+		
+		boolean b1, b2;
+		if (num1 != 0) {
+			b1 = true;
+		} else {
+			b1 = false;
+		}
+		if (num2 != 0) {
+			b2 = true;
+		} else {
+			b2 = false;
+		}
+		
+		boolean c = b1 && b2;
+		boolean d = b1 || b2;
+		
+		System.out.println(c + " " + d);
+		
+		
+		sc.close();
+	}
+}
+
 
 
 //525
