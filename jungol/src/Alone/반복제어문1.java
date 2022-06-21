@@ -204,3 +204,72 @@ package Alone;
 //		System.out.println("even : "+even_num);
 //	}
 //}
+
+
+//127
+//import java.util.Scanner;
+//public class 반복제어문1 {
+//	public static void main(String[] args) {
+//		Scanner sc = new Scanner(System.in);
+//		int sum = 0;
+//		int count = 0;
+//		
+//		while(true) {
+//			int a = sc.nextInt();
+//			
+//			//100보다 크면 종료
+//			if(a>100) {
+//				sc.close();
+//				break;
+//			}
+//			
+//			sum += a;
+//			count ++;
+//		}
+//		
+//		System.out.println("sum : "+sum);
+//		System.out.printf("avg : %.1f", (double)sum/count);
+//	}
+//}
+
+
+//128
+//import java.util.Scanner;
+//public class 반복제어문1 {
+//	public static void main(String[] args) {
+//		Scanner sc = new Scanner(System.in);
+//		int count = 0;
+//		
+//		while(true) {
+//			int a = sc.nextInt();
+//			
+//			//0이면 종료
+//			if(a==0) {
+//				sc.close();
+//				break;
+//			}
+//			
+//			if(a%3!=0 && a%5!=0) {
+//				count ++;
+//			}
+//		}
+//		
+//		System.out.println(count);
+//	}
+//}
+
+
+//129
+import java.util.Scanner;
+public class 반복제어문1 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Base = ");
+		System.out.println();
+		System.out.print("Height = ");
+		
+		
+		sc.close();
+	}
+}
