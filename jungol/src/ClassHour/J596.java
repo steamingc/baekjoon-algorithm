@@ -2,42 +2,49 @@ package ClassHour;
 
 import java.util.Scanner;
 
-//public class J596 {
-//	public static void main(String[] args) {
-//		Scanner sc = new Scanner(System.in);
-//		String s = sc.next();
-//		int n = sc.nextInt();
-//		sc.close();
-//		char[] arr = new char[s.length()];
-//		
-//		for(int i=0; i<s.length(); i++) {
-//			arr[i] = s.charAt(i);
-//		}
-//		
-//		for(int i=1; i<=n; i++) {
-//			System.out.print(arr[s.length()-i]);
-//		}
-//	}
-//}
-
-
-//¼±»ý´Ô Ç®ÀÌ
 public class J596 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		String str = sc.next();
-		int inp = sc.nextInt();
+		String s = sc.next();
+		int n = sc.nextInt();
 		sc.close();
+		char[] arr = new char[s.length()];
 		
-		
-		//2.----------------------------
-		StringBuilder sb = new StringBuilder(str);
-		
-		StringBuilder sb2 = sb.reverse();
-		
-		for(int i=0; i<inp; i++) {
-			System.out.print(sb2.charAt(i));
+		for(int i=0; i<s.length(); i++) {
+			arr[i] = s.charAt(i);
 		}
+		
+		//n < s
+		if(n < s.length()) {
+			for(int i=1; i<=n; i++) {
+				System.out.print(arr[s.length()-i]);
+			}
+		//n > s
+		} else {
+			for(int i=s.length()-1; i>=0; i--) {
+				System.out.print(arr[i]);
+			}
+		}
+	}
+}
+
+//¼±»ý´Ô Ç®ÀÌ
+//public class J596 {
+//	public static void main(String[] args) {
+//		Scanner sc = new Scanner(System.in);
+//		String str = sc.next();
+//		int inp = sc.nextInt();
+//		sc.close();
+//		
+//		
+//		//2.----------------------------
+//		StringBuilder sb = new StringBuilder(str);
+//		
+//		StringBuilder sb2 = sb.reverse();
+//		
+//		for(int i=0; i<inp; i++) {
+//			System.out.print(sb2.charAt(i));
+//		}
 		
 		
 		//1.----------------------------
@@ -52,5 +59,5 @@ public class J596 {
 //				System.out.print(str.charAt(i));
 //			}
 //		}
-	}
-}
+//	}
+//}

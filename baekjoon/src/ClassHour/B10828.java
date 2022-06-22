@@ -43,7 +43,7 @@ public class B10828 {
 
 class RunStack {
 	int[] arr;
-	int count = 0;			//배열 인덱스
+	int count = -1;			//배열 인덱스
 	boolean in = false;		//push 사용 여부 (정수가 배열에 들어갔는지)
 	
 	public RunStack(int n) {
@@ -54,13 +54,15 @@ class RunStack {
 		arr[count] = p;
 		count ++; 
 		in = true;
+		System.out.println("push count : " +count);
+		System.out.println();
 	}
 	
 	public void pop() {
-		if(in == false) {
+		if(count == -1) {
 			System.out.println(-1);
 			in = false;
-			count = 0;
+			count = -1;
 		} else {
 			System.out.println(arr[count]);
 			count--;
@@ -68,23 +70,29 @@ class RunStack {
 				in = false;
 			}
 		}
+		System.out.println("pop count : " +count);
+		System.out.println();
 	}
 	
 	public void size() {
 		if(in) System.out.println(count);
 		else System.out.println(count);
+		System.out.println("size count : " +count);
+		System.out.println();
 	}
 	
 	public void empty() {
 		if(in) System.out.println(0);
 		else System.out.println(1);
+		System.out.println("empty count : " +count);
+		System.out.println();
 	}
 	
 	public void top() {
 		if(in) {
-			System.out.println(arr[count-1]);
+			System.out.println(arr[count]);
 		} else System.out.println(-1);
+		System.out.println("top count : " +count);
+		System.out.println();
 	}
-	
-	
 }

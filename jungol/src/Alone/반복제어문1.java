@@ -207,30 +207,29 @@ package Alone;
 
 
 //127
-//import java.util.Scanner;
-//public class 반복제어문1 {
-//	public static void main(String[] args) {
-//		Scanner sc = new Scanner(System.in);
-//		int sum = 0;
-//		int count = 0;
-//		
-//		while(true) {
-//			int a = sc.nextInt();
-//			
-//			//100보다 크면 종료
-//			if(a>100) {
-//				sc.close();
-//				break;
-//			}
-//			
-//			sum += a;
-//			count ++;
-//		}
-//		
-//		System.out.println("sum : "+sum);
-//		System.out.printf("avg : %.1f", (double)sum/count);
-//	}
-//}
+import java.util.Scanner;
+public class 반복제어문1 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int sum = 0;
+		int count = 0;
+		
+		while(true) {
+			int a = sc.nextInt();
+			
+			//100보다 크면 종료
+			if(a>100) {
+				sc.close();
+				break;
+			}
+			sum += a;
+			count++;
+		}
+		
+		System.out.println("sum : "+sum);
+		System.out.printf("avg : %.1f", (double)sum/count);
+	}
+}
 
 
 //128
@@ -260,16 +259,16 @@ package Alone;
 
 
 //129
-import java.util.Scanner;
-public class 반복제어문1 {
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		
-		System.out.print("Base = ");
-		System.out.println();
-		System.out.print("Height = ");
-		
-		
-		sc.close();
-	}
-}
+//import java.util.Scanner;
+//public class 반복제어문1 {
+//	public static void main(String[] args) {
+//		Scanner sc = new Scanner(System.in);
+//		
+//		System.out.print("Base = ");
+//		System.out.println();
+//		System.out.print("Height = ");
+//		
+//		
+//		sc.close();
+//	}
+//}
